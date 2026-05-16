@@ -10,7 +10,7 @@ def index(request: HttpRequest) -> HttpResponse:
 
     context = {
         "num_drivers": num_drivers,
-        "num_manufacturers": num_manufacturers
+        "num_manufacturers": num_manufacturers,
         "num_cars": num_cars,
     }
 
